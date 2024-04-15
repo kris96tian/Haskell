@@ -1,3 +1,13 @@
+-- A program that analyzes DNA sequence & gives the longestCommonSubsequence of the two and the Edt distance.
+
+--  1.Data Type Definition:
+--  DNASequence: This is a newtype representing a DNA sequence. A Text value, which stores the DNA sequence as text.
+
+--  2.Function Definitions:
+--   *longestCommonSubsequence: this Fnc  takes two DNASequence objects and finds their longest common subsequence (LCS).
+--    It compares the sequences char by char, finding the longest sequence of characters that appear in the same order in both sequences. 
+--   *editDistance: Fnc calculates the edit distance between two DNASequence objects. The edit distance is the minimum number of operations (insertion, deletion, or substitution) required to change one sequence into the other.
+
 import Data.Text (Text)
 import qualified Data.Text as T
 
