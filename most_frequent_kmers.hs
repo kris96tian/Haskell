@@ -38,3 +38,17 @@ main = do
     putStrLn $ "Sequence 2: " ++ sequence2
     putStrLn $ "Most frequent " ++ show k ++ "-mer(s) and their frequencies in Sequence 2:"
     mapM_ (\(mer, freq) -> putStrLn $ "K-mer: " ++ mer ++ ", Frequency: " ++ show freq) frequentKmers2
+
+
+-----------------------------------------------
+--          OUTPUT
+-----------------------------------------------
+-- Seq 1: ACGTACGTACGTACGTACGTACGTACGTACGT
+--  Most frequent 3-mer(s) & their frequenc:
+--            ACG, Frequency: 8
+--            CGT, Frequency: 8
+--------------------------------------------------
+--  Seq 2: ACGTTTTACGTTTTACGTTTTACGTTTTACGTTTT
+--  Most frequent 3-mer(s) & their frequenc:
+--           TTT, Frequency: 10
+-------------------------------------------------
