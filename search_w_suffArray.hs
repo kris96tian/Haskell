@@ -3,9 +3,9 @@
 --   new DataTpye: Suffix: Tuple containing a suffix string and its starting index.
 --
 --  Fnc:
---       suffixes: Gener all suffices of a given string.
---       compareSufficxes: Compares two suffics based on their string values.
-...       suffixArray: Builds the suffix array of a string.
+--        suffixes: Gener all suffices of a given string.
+---       compareSufficxes: Compares two suffics based on their string values.
+---       suffixArray: Builds the suffix array of a string.
 ---       binarySearch: Performs binary search on the suffix array to find occur of a pat.
 ---       search: for a pattern in a text using the suffArr and binSearch.
 -----------------------------------------------------------------------------------------------
