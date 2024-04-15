@@ -18,11 +18,9 @@ type Suffix = (String, Int)
 suffixes :: String -> [Suffix]
 suffixes s = [(drop i s, i) | i <- [0..length s - 1]]
 
---  compare two suffices
 compareSuffixes :: Suffix -> Suffix -> Ordering
 compareSuffixes (s1, _) (s2, _) = compare s1 s2
 
---build the suffix array
 suffixArray :: String -> [Int]
 suffixArray s = map snd $ sortBy compareSuffixes $ suffixes s
 
