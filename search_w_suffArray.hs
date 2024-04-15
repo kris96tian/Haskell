@@ -1,6 +1,6 @@
 --   Search for a pattern within a text using a suffix array and binary search----------------
 -- 
---   DataTye: Suffix: Tuple containing a suffix string and its starting index.
+--   new DataTpye: Suffix: Tuple containing a suffix string and its starting index.
 --
 --  Fnc:
 --       suffixes: Gener all suffices of a given string.
