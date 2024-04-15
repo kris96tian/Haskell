@@ -7,7 +7,6 @@ generateKmers k sequence = take (length sequence - k + 1) $ map (take k) (tails 
 countKmers :: [String] -> [(String, Int)]
 countKmers kmers = map (\x -> (head x, length x)) $ group $ sort kmers
 
--- find the most freq kmers and their freq
 mostFrequentKmer :: Int -> String -> [(String, Int)]
 mostFrequentKmer k sequence =
     let kmers = generateKmers k sequence               -- Get all k-mers from sequence
